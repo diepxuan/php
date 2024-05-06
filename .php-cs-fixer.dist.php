@@ -29,6 +29,8 @@ if (!function_exists('import_url')) {
     }
 }
 
+date_default_timezone_set("Asia/Ho_Chi_Minh");
+
 return (new Config())
     ->setRiskyAllowed(true)
     ->setRules([
