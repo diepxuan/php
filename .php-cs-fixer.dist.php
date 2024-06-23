@@ -88,7 +88,12 @@ return (new Config())
         (new Finder())
             ->ignoreDotFiles(false)
             ->ignoreVCSIgnored(true)
-            ->exclude(['dev-tools/phpstan', 'tests/Fixtures'])
+            ->exclude([
+                'dev-tools/phpstan',
+                'tests/Fixtures',
+                'lib/internal/Magento/Framework',
+                'app/code/Magento',
+            ])
             ->in(__DIR__)
     )
 ;
