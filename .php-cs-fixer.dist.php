@@ -39,6 +39,7 @@ return (new Config())
         '@PHPUnit100Migration:risky'       => true,
         '@PhpCsFixer'                      => true,
         '@PhpCsFixer:risky'                => true,
+        '@PER-CS2.0'                       => true,
         'general_phpdoc_annotation_remove' => ['annotations' => ['expectedDeprecation']], // one should use PHPUnit built-in method instead
         'header_comment'                   => ['header' => sprintf(<<<'EOF'
             @copyright  © 2019 Dxvn, Inc.
@@ -81,7 +82,6 @@ return (new Config())
                 '=>' => 'align_single_space_minimal',
                 '='  => 'align_single_space_minimal',
             ]],
-
         'operator_linebreak' => ['only_booleans' => true],
     ])
     ->setFinder(
