@@ -77,7 +77,7 @@ return (new Config())
         'standardize_not_equals'                     => true,
         'ternary_operator_spaces'                    => true,
         'binary_operator_spaces'                     => [
-            'default'   => 'at_least_single_space',
+            'default'   => 'align_single_space_minimal',
             'operators' => [
                 '=>' => 'align_single_space_minimal',
                 '='  => 'align_single_space_minimal',
