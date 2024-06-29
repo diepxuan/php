@@ -77,9 +77,9 @@ return (new Config())
         'standardize_not_equals'                     => true,
         'ternary_operator_spaces'                    => true,
         'binary_operator_spaces'                     => [
-            'default'   => 'align_single_space_minimal',
+            'default'   => 'align_single_space_minimal_by_scope',
             'operators' => [
-                '=>' => 'align_single_space_minimal',
+                '=>' => 'at_least_single_space',
                 '='  => 'align_single_space_minimal',
             ]],
         'operator_linebreak' => ['only_booleans' => true],
