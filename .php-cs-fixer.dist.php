@@ -79,7 +79,7 @@ return (new Config())
         'binary_operator_spaces'                     => [
             'default'   => 'at_least_single_space',
             'operators' => [
-                '=>' => 'at_least_single_space',
+                '=>' => 'align_single_space_minimal',
                 '='  => 'align_single_space_minimal',
             ]],
         'operator_linebreak' => ['only_booleans' => true],
